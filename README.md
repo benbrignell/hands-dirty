@@ -1,6 +1,6 @@
 # Hands Dirty Boilerplate
 
-## A simple boilerplate containing the bare tools you need to help you jump straight into rapid prototyping
+#### A simple boilerplate containing the bare tools you need to help you jump straight into rapid prototyping
 This boilerplate, mostly based on [Zurb Foundation 4](http://foundation.zurb.com/), is designed to let you get your hands dirty when you have an idea. 
 
 ## Projects included in the boilerplate
