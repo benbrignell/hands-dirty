@@ -1,0 +1,77 @@
+/*! Prototyping boilerplate  */
+
+/* ==========================================================================
+   Custom css for Get Dirty Boilerplate
+   ========================================================================== */
+
+/* ==========================================================================
+   appendAround  - aligned with foundation grid (768 mq)
+   ========================================================================== */
+
+	.aa-large {
+	  display: block;
+	}
+	.aa-small {
+	  display: none; 
+	}
+	
+@media only screen and (min-width: 768px) {
+	.aa-large {
+	  display: none;
+	}
+	.aa-small {
+	  display: block; 
+	}
+}
+
+/* ==========================================================================
+   Responsive Nav  - aligned with foundation grid (768 mq)
+   ========================================================================== */
+	#nav ul {
+	  margin: 0;
+	  padding: 0;
+	  width: 100%;
+	  display: block;
+	  list-style: none;
+	}
+	
+	#nav li {
+	  width: 100%;
+	  display: block;
+	  float: left;
+	}
+	
+	.js #nav {
+	  clip: rect(0 0 0 0);
+	  max-height: 0;
+	  position: absolute;
+	  display: block;
+	  overflow: hidden;
+	  zoom: 1;
+	}
+	
+	#nav.opened {
+	  max-height: 9999px;
+	}
+	
+	@media screen and (min-width: 768px) {
+	  .js #nav {
+	    position: relative;
+	  }
+	  .js #nav.closed {
+	    max-height: none;
+	  }
+	  #nav-toggle {
+	    display: none;
+	  }
+	}
+
+/**
+ * 1. Prevent system color scheme's background color being used in Firefox, IE,
+ *    and Opera.
+ * 2. Prevent system color scheme's text color being used in Firefox, IE, and
+ *    Opera.
+ * 3. Set default font family to sans-serif.
+ * 4. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
